@@ -15,6 +15,7 @@ header, nav, footer {
 	height: 50px;
 	margin: 10px 50px 20px 50px;
 	background-color: white;
+	clear: both;
 }
 
 .absolute {
@@ -37,6 +38,8 @@ header, nav, footer {
 	background-color: white;
 	float: left;
 	margin-left: 75px;
+	position: relative;
+	clear: both;
 }
 
 article {
@@ -44,21 +47,14 @@ article {
 	height: 200px;
 	margin: 10px 50px 10px 50px;
 	background-color: gray;
-	color: black;
 }
 
 .h1, .p {
+	padding: 15px;
 	height: 25px;
-	width: 80%;
 	margin: 10px 50px 10px 50px;
-	background-color: yellow;
-	color: blue;
-	position: relative;
-	top: -175px;
-	right: 100px;
-	bottom: 20px;
-	left: 25px;
-		clear: both;
+	background-color: white;
+	clear: both;
 }
 
 *.clear {
